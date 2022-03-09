@@ -1,0 +1,5 @@
+res = (len(line) for line in file if line.strip())
+print(list(res))
+
+
+kasi knows pyrthon

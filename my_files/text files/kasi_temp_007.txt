@@ -1,0 +1,11 @@
+NAME
+age: 25
+sex: MALE
+mobile no: 8886213059
+address: guntur
+
+NAME: MOHANAage: 25
+sex: MALE
+mobile no: 8886213059
+address: guntur
+Name: Rao
