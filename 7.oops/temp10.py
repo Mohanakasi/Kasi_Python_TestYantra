@@ -22,47 +22,58 @@
 # c1 = Even_odd(96)
 # c1.eo()
 
+#
+# class Com_branch1:
+#     company_name = 'Capgemini'
+#     def __init__(self, name, loc, desi):
+#         self.name = name
+#         self.loc = loc
+#         self.desi = desi
+#
+#     def get_data(self):
+#         print(f"employee name is:{self.name}")
+#         print(f"employee loc is :{self.loc}")
+#         print(f"employee designation: {self.desi}")
+#
+# emp = Com_branch1('chandana', 'mumbai', 'ceo')
+# # print(emp.__dict__)
+# # emp.get_data()
+# print(Com_branch1.__dict__)
+# class Delta(Com_branch1):
+#     def __init__(self, name, loc, desi, sal):
+#         self.sal = sal
+#         super().__init__(name, loc, desi)
+#
+#
+# e1 = Delta('kasi', 'guntur', 'automation engineer',1000)
+# e1.get_data()
+# print()
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 
-class Com_branch1:
-    company_name = 'Capgemini'
-    def __init__(self, name, loc, desi):
-        self.name = name
-        self.loc = loc
-        self.desi = desi
-
-    def get_data(self):
-        print(f"employee name is:{self.name}")
-        print(f"employee loc is :{self.loc}")
-        print(f"employee designation: {self.desi}")
-
-emp = Com_branch1('chandana', 'mumbai', 'ceo')
-# print(emp.__dict__)
-# emp.get_data()
-print(Com_branch1.__dict__)
-class Delta(Com_branch1):
-    def __init__(self, name, loc, desi, sal):
-        self.sal = sal
-        super().__init__(name, loc, desi)
 
 
-e1 = Delta('kasi', 'guntur', 'automation engineer',1000)
-e1.get_data()
-print()
+a = 10
+class spam:
+    def add(self):
+        # a += 1
+        return a
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+s = spam()
+print(s.add())

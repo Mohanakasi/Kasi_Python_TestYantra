@@ -104,16 +104,20 @@ driver = webdriver.Chrome('./Chromedriver')
 # driver.find_element_by_link_text("Click here for order details.").click()
 
 
-driver.get("https://www.goibibo.com/")
-driver.find_element_by_xpath("//p[@cLASS='sc-dJjYzT cjzxWN fswWidgetTitle']").click()
-month = 'March 2023'
-day = "18"
-i = 1
-while i > 0 :
-    try:
-        sleep(1)
-        driver.find_element_by_xpath(f"//div[text()='{month}']/../..//p[text()='{day}']").click()
-        break
-    except :
-        sleep(1)
-        driver.find_element_by_xpath("//span[@aria-label='Next Month']").click()
+# driver.get("https://www.goibibo.com/")
+# driver.find_element_by_xpath("//p[@cLASS='sc-dJjYzT cjzxWN fswWidgetTitle']").click()
+# month = 'March 2023'
+# day = "18"
+# i = 1
+# while i > 0 :
+#     try:
+#         sleep(1)
+#         driver.find_element_by_xpath(f"//div[text()='{month}']/../..//p[text()='{day}']").click()
+#         break
+#     except :
+#         sleep(1)
+#         driver.find_element_by_xpath("//span[@aria-label='Next Month']").click()
+# s = 'kasi'
+# for index in range(len(s)-1,-1,-1):
+#     print(s[index])
+# print(list(range(3,-1)))
