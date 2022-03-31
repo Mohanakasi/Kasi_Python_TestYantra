@@ -70,7 +70,7 @@ print(re.findall(r'\bh\w*\b','hai hello a h aksi'))  # '\bh\w*\b' means starts w
 print(re.findall(r'\b\w+h\b','hai helo h strength'))  # '\bh\w+\b' means starts with h and later 0 or any-->(*)
 
 """adding numbers in a string"""
-print(re.findall(r'\d','hai helo h 12,strength78'))  # '\bh\w+\b' means starts with h and later 0 or any-->(*)
+print(re.findall(r'\d','hai helo h 12,strength78'))
 
 "sum of individual numbers in a string using regular expresssions"
 total = 0

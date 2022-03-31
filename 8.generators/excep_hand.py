@@ -19,3 +19,18 @@ except NameError:
 print("heill")
 
 
+import xlrd
+workbook = xlrd.open_workbook("new_100.xlsx")
+sheet_ = workbook.sheet_by_name("temp30")
+rows_ = sheet_.nrows
+cols_ = sheet_.ncols
+dict_ = {}
+for curre_row in range(rows_):
+    print(curre_row)
+    user_name = sheet_.cell_value(curre_row, 0)
+    password_ = sheet_.cell_value(curre_row, 1)
+    dict_[user_name] = int(password_)
+print(dict_)
+
+
+

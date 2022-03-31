@@ -121,3 +121,28 @@ driver = webdriver.Chrome('./Chromedriver')
 # for index in range(len(s)-1,-1,-1):
 #     print(s[index])
 # print(list(range(3,-1)))
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+driver.get("https://www.facebook.com/")
+sleep(10)
+driver.find_element(By.XPATH, "//input[@id='email']").send_keys(8886213059)
+sleep(10)
+driver.find_element(By.XPATH, "//input[@id='pass']").send_keys("Robo@1995")
+sleep(10)
+driver.find_element(By.XPATH, "//button[text()='Log In']").click()
+sleep(10)
+from selenium.webdriver.chrome.options import Options
+
+option = Options()
+
+option.add_argument("--disable-infobars")
+
+option.add_argument("start-maximized")
+
+option.add_argument("--disable-extensions")
+
+option.add_experimental_option("prefs",
+{"profile.default_content_setting_values.notifications": 2
+ })
+# driver.find_element(By.XPATH, "//div[@class='pmk7jnqg kp4lslxn lxek4yd6 ms05siws pnx7fd3z nf1dmkjp b5wmifdl hzruof5a']//div[@data-visualcompletion='ignore']").click()

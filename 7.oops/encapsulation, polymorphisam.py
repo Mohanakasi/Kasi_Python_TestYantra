@@ -34,8 +34,8 @@ class sample:
 
 
 """property (using property decorator)"""
-"""by using the property decorator we can give access the user to access the protected variables anf if you want to restrict to\n
-modify the protected variables and deletig it"""
+"""by using the property decorator we can give access the user to access the protected variables anf 
+if you want to restrict to modify the protected variables and deletig it"""
 class Temp:
     __a = 10
     __b = 20
