@@ -5,7 +5,7 @@ class pm_cl(selenium_wrapper):
     gen_male = (By.ID, "gender-male")
     first_name = ((By.ID, "FirstName"), "mohana kasi")
     last_name = ((By.ID, "LastName"), "settipalli")
-    email_ = ((By.NAME, "Email"), "rma85454@k18.com")
+    email_ = ((By.NAME, "Email"), "karthiknk04@gmail.com")
     password_ = ((By.ID, "Password"), "Mohana1995")
     cnf_password_ = ((By.ID, "ConfirmPassword"), "Mohana1995")
     register_button = (By.ID, "register-button")
