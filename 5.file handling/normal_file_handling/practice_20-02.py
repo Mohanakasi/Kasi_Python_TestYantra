@@ -104,7 +104,7 @@ import csv
 with open("bio.csv",'w') as csv_file:
     write_obj = csv.writer(csv_file)
     write_obj.writerow({'name','gender','mobile'})
-    write_obj.writerows({('mohanakasi','male','8886213059'),('jayamadhuri','female',7732049295)}) # it takes int format also
+    write_obj.writerows({('mohanakasi','male','8886213059')}) # it takes int format also
 # os.popen("temp.csv")
 # with open("bio.csv") as csv_file:
 #     read_obj = csv.reader(csv_file)
